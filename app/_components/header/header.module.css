@@ -1,0 +1,22 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app-header-logo {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  width: 430px;
+  height: 80px;
+  font-family: 'SUSE Mono', sans-serif;
+  font-size: 2rem;
+  color: #333;
+}
+
+.app-header-logo img {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}

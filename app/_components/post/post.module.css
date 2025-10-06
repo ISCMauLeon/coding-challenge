@@ -1,0 +1,27 @@
+.post {
+  width: 900px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow:
+    0 4px 8px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.post-header {
+  display: flex;
+  font-size: 0.9rem;
+}
+
+.post-header-text-wrapper {
+  padding-top: 5px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0px;
+}

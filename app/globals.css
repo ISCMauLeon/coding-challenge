@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Alan Sans', sans-serif;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0px 70px;
+  color: #333;
+  background-color: #3db7f4;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 3rem auto;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0.5rem auto;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+
+h1, h2, h3 {
+  font-family: 'SUSE Mono', sans-serif;
+  text-decoration: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited,
+a:active,
+a:visited {
+  color: #333;
+}

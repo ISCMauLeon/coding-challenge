@@ -1,0 +1,14 @@
+.styled-button {
+  background-color: #fff;
+  color: #4653e2;
+  text-decoration: none;
+  border: 2px solid #333;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.styled-button-active {
+  background-color: #4653e2;
+  color: #fff;
+}
