@@ -1,6 +1,10 @@
 # Facealbum app - Coding Challenge from Mauricio Leon Murillo
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+In Facealbum, you can load 10 random posts from different different people! (right now Facealbum has only 6 total users, you and your 5 friends). Be sure to enter their profiles and like (or unlike) their posts. You can view your own profile too!
+
+To view different posts, try reloading the page.
+
 ## Getting Started
 
 - Open a terminal and navigate to the root of this project
@@ -29,6 +33,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - Since posts come out random, the same post could potentially appear twice in the same page load.
 - You can't open a view for a specific post.
 - Posts are rarelly seen again on the list view since there is a 1000 mocked posts.
+- To see different posts, you need to either reload the page or navigate back to the homepage.
 
 ## Thought enhancements
 - Page route to see individual posts. Possibly `/post/[postId]`
